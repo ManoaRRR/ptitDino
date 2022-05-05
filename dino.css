@@ -1,0 +1,45 @@
+#content{
+    width: 60%;
+    height: 500px;
+    border: 4px solid black;
+    position: relative;
+    overflow: hidden;
+}
+#dino{
+    width: 30px;
+    height: 60px;
+    background-color: blue;
+    bottom: 0;
+    position: absolute;
+}
+#cactus{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: aqua;
+    animation: moov infinite linear 2s;
+}
+@keyframes moov {
+    from{
+        right: 0;
+    }
+    to{
+        right: 100%;
+    }
+}
+.jumping{
+    animation: jump 0.5s normal;
+}
+@keyframes jump {
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 150px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
