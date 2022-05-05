@@ -8,7 +8,7 @@
 #dino{
     width: 30px;
     height: 60px;
-    background-color: blue;
+    background-color: rgb(12, 12, 12);
     bottom: 0;
     position: absolute;
 }
@@ -18,7 +18,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: aqua;
+    background-color: rgb(245, 166, 19);
     animation: moov infinite linear 2s;
 }
 @keyframes moov {
